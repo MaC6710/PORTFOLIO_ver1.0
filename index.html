@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- 검색엔진 검색허용 -->
+    <meta name="robots" content="All">
+    <meta name="Yeti" content="index, follow">
+    <meta name="Yeti" content="All">
+    <meta name="googlebot" content="All">
+    <meta name="googlebot" content="index, follow">
+    <meta name="daumoa" content="All">
+    <meta name="daumoa" content="index, follow">
+    <meta name="title" content="웹디자이너 - 권혁훈 포트폴리오">
+    <meta name="description" content="웹디자너 권혁훈입니다. 포트폴리오 방문을 환영">
+    <meta name="keywords" content="웹디자이너, 웹퍼블리셔">
+    <meta name="author" content="권혁훈">
+    <meta name="content-language" content="kr">
+    <!-- Yeti : naver , googlebot: google , daumoa : daum -->
+    <!-- open-graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Potrfolio">
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:description" content="권혁훈의 포트폴리오입니다.">
+    <meta property="og:image" content="images/pooh.jpg">
+    <!-- images 수정할 것 -->
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <!-- menu -->
+        <div class="menu-page">
+            <div class="menu">
+                <div class="wrap">
+                    <h1>MENU</h1>
+                    <ul class="container">
+                        <li>
+                            <a href="#about">
+                                about me
+                            </a>
+                        </li>
+                        <li class="chapter">
+                            <a href="#" style="pointer-events:none;">
+                                portfolio
+                            </a>
+                            <ul class="portfolio">
+                                <li>
+                                    <a href="#design">
+                                        Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#coding">
+                                        Coding
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#contact">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <i class="return"></i>
+        </div>
+        <div class="hamburger">
+            <a href="#">
+                <div class="group">
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="swiper fullpage">
+            <div class="swiper-wrapper">
+                <!-- title -->
+                <div class="swiper-slide main page">
+                    <img src="image/block1-bl.png" alt="block">
+                    <img src="image/block2-gr.png" alt="block">
+                    <img src="image/block3-ye.png" alt="block">
+                    <img src="image/block4-pi.png" alt="block">
+                    <div class="main-title">
+                        <h1>기본이 가진 힘을 믿는 웹디자이너
+                            <br>
+                            <span>권혁훈입니다</span>
+                        </h1>
+                        <p class="blink">
+                            <a href="#">
+                                press the button!
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- about -->
+                <div class="swiper-slide page about" id="about">
+                    <h1 class="title">About</h1>
+                    <div class="box">
+                        <ul>
+                            <li class="group">
+                                <b>Name</b>
+                                <ul class="item">
+                                    <li>권혁훈</li>
+                                </ul>
+                            </li>
+                            <li class="group">
+                                <b>about</b>
+                                <ul class="item">
+                                    <li>phone : 01028893579</li>
+                                    <li>e-mail : K2hh6710 Gmail</li>
+                                </ul>
+                            </li>
+                            <li class="group">
+                                <b>Strong</b>
+                                <ul class="item strong">
+                                    <li>
+                                        <i>
+                                            <!-- <div class="visual-studio-code"></div> -->
+                                            <img src="image/visual-studio-code.png" alt="visual-studio-code">
+                                        </i>
+                                    </li>
+                                    <li>
+                                        <i>
+                                            <img src="image/photoshop.png" alt="photoshop">
+                                        </i>
+                                    </li>
+                                    <li>
+                                        <i>
+                                            <img src="image/illustrator.png" alt="illustrator">
+                                        </i>
+                                    </li>
+                                    <li>
+                                        <i>
+                                            <img src="image/jquery.png" alt="jquery">
+                                        </i>
+                                    </li>
+                                    <li>
+                                        <i>
+                                            <img src="image/figma.png" alt="figma">
+                                        </i>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="circle">
+                            <svg width="100%" height="100%" viewBox="0 0 736 545" class="shake">
+                                <g transform="translate(0,545) scale(0.1,-0.1)" fill="#000000" stroke="none">
+                                    <path d="M1020 3045 l0 -215 105 0 105 0 0 -105 0 -104 108 -3 107 -3 3 -102
+                                     3 -103 42 -1 c23 0 70 0 105 1 l62 1 0 -110 0 -111 638 2 637 3 5 107 5 106
+                                     100 0 100 0 3 106 3 106 104 0 105 0 0 210 0 210 215 0 214 0 0 -157 c-1 -87
+                                     0 -182 0 -210 l1 -53 105 0 105 0 0 -105 c0 -77 3 -105 13 -105 6 -1 54 -1
+                                     105 -2 l92 0 0 -109 0 -109 745 0 745 0 0 110 0 110 105 0 104 0 3 103 3 102
+                                     108 3 107 3 0 104 0 105 105 0 105 0 0 215 0 215 -2660 0 -2660 0 0 -215z" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- design -->
+                <div class="swiper-slide design page" id="design">
+                    <h1 class="title">Design</h1>
+                    <!-- 메인 이미지 -->
+                    <div class="image-wrapper">
+                        <div class="swiper-container main-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide main-page1">
+                                    <div class="inner-txt">
+                                        <p class="deco">상세페이지</p>
+                                        <p>뱅 : 주사위 게임</p>
+                                        <a class="more"
+                                            href="https://dimwit6710.cafe24.com/product/%EC%83%98%ED%94%8C%EC%83%81%ED%92%88-2/10/category/1/display/2/"
+                                            target="_blank">more</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide main-page2">
+                                    <div class="inner-txt">
+                                        <p class="deco">상세페이지</p>
+                                        <p>꿀샘 16</p>
+                                        <button class="more"
+                                            onclick="showImage('image/cover/product/Ggulsam16.png')">more</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide main-page3">
+                                    <div class="inner-txt">
+                                        <p class="deco">상세페이지</p>
+                                        <p>원데이 그래놀라</p>
+                                        <button class="more"
+                                            onclick="showImage('image/cover/product/granola.png')">more</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide main-page4">
+                                    <div class="inner-txt">
+                                        <p class="deco">상세페이지</p>
+                                        <p>Beats Studio Pro</p>
+                                        <a class="more"
+                                            href="https://dimwit6710.cafe24.com/product/%EC%83%81%ED%92%88-1/9/category/1/display/2/"
+                                            target="_blank">more</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide main-page5">
+                                    <div class="inner-txt">
+                                        <p class="deco">앱 디자인</p>
+                                        <p class="deco">Team Project</p>
+                                        <p>MOGU : 세상의 모든 구독</p>
+                                        <a class="more"
+                                            href="https://www.figma.com/proto/ODvQmJEOoU6RQBiWSJnDRh/3%EC%A1%B0-%EC%95%B1%EB%94%94%EC%9E%90%EC%9D%B8?node-id=586-39286&p=f&t=jK4rKMGGSwPWYYYh-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=586%3A39258&show-proto-sidebar=1"
+                                            target="_blank">more</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide main-page6">
+                                    <div class="inner-txt">
+                                        <p class="deco">배너 디자인</p>
+                                        <p>롯데리아 통새우 크런Kim 버거</p> >
+                                        <button class="more"
+                                            onclick="showImage('image/cover/webbanner/banner.png')">more</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide main-page7">
+                                    <div class="inner-txt">
+                                        <p class="deco">카드뉴스</p>
+                                        <p class="deco">Team Project</p>
+                                        <p>대전 빵축제</p>
+                                        <button class="more"
+                                            onclick="showImage('image/cover/cardnews/cardnews.png')">more</button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide main-page8">
+                                    <div class="inner-txt">
+                                        <p class="deco">로고 디자인</p>
+                                        <p>웹소설전문컨설턴트 0127</p>
+                                        <button class="more"
+                                            onclick="showImage('image/cover/webbanner/logo.png')">more</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+
+                    <!-- 썸네일 슬라이드 -->
+                    <div class="swiper-container thumbnail-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="image/cover/product/bang.png" alt="img1" class="pg1">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/cover/product/Ggulsam16.png" alt="img2" class="pg2">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/cover/product/granola.png" alt="img3" class="pg3">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/cover/product/headphone-full.png" alt="img4" class="pg4">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/cover/appdesign/Mogu-process.png" alt="img5" class="pg5">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/cover/webbanner/banner.png" alt="img6" class="pg6">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/cover/cardnews/cardnews1p.png" alt="img7" class="pg7">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/cover/webbanner/logo-main.png" alt="img8" class="pg8">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <!-- coding -->
+                <div class="swiper-slide page" id="coding">
+                    <h1 class="title">Coding</h1>
+                    <div class="swiper inner">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide cont">
+                                <div class="imgarea">
+                                    <div class="image">
+                                        <img src="image/cover/redesign/Lush-main.png" alt="site1">
+                                    </div>
+                                </div>
+                                <div class="txtarea">
+                                    <div class="txt">
+                                        <span>team-project</span>
+                                        <p>Lush Korea</p>
+                                    </div>
+                                    <div class="btn">
+                                        <a href="https://www.figma.com/proto/IZusdsxkiSGvh4uNzwsrUg/2%EC%A1%B0-%EB%9F%AC%EC%89%AC?node-id=1-2&p=f&t=KvOsF2H4Jv4jAZeE-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
+                                            target="_blank">
+                                            concept</a>
+                                        <a href="https://mac6710.github.io/Lush-Korea/" target="_blank">coding</a>
+                                        <a href="https://weare.lush.co.kr/" target="_blank">origin</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cont">
+                                <div class="imgarea">
+                                    <div class="image">
+                                        <img src="image/cover/redesign/Dongnae-Seojeom.png" alt="site2">
+                                    </div>
+                                </div>
+                                <div class="txtarea">
+                                    <div class="txt">
+                                        <span>re-Disign</span>
+                                        <p>동네서점</p>
+                                    </div>
+                                    <div class="btn">
+                                        <a href="https://www.figma.com/proto/i8EMBTErj1f8TZ1bONIjSV/%EB%A6%AC%EB%94%94%EC%9E%90%EC%9D%B8-2?node-id=26-2&t=QReGVyT4uvlNsBWO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+                                            target="_blank">concept</a>
+                                        <a href="https://mac6710.github.io/book/" target="_blank">coding</a>
+                                        <a href="https://www.bookshopmap.com/" target="_blank">origin</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cont">
+                                <div class="imgarea">
+                                    <div class="image">
+                                        <img src="image/cover/redesign/nintendo.png" alt="site3">
+                                    </div>
+                                </div>
+                                <div class="txtarea">
+                                    <div class="txt">
+                                        <span>re-Disign</span>
+                                        <p>Nintendo</p>
+                                    </div>
+                                    <div class="btn">
+                                        <a href="https://www.figma.com/proto/D9lrN1Ron0bMNJ0QMg7p6v/1%EC%B0%A8-%EC%9B%B9%EB%A6%AC%EB%94%94%EC%9E%90%EC%9D%B8_%EA%B6%8C%ED%98%81%ED%9B%88?node-id=62-39&t=QReGVyT4uvlNsBWO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+                                            target="_blank">concept</a>
+                                        <a href="#" target="_blank">-</a>
+                                        <a href="https://www.nintendo.co.kr/" target="_blank">origin</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cont">
+                                <div class="imgarea">
+                                    <div class="image">
+                                        <img src="image/cover/clone/harim.png" alt="site3">
+                                    </div>
+                                </div>
+                                <div class="txtarea">
+                                    <div class="txt">
+                                        <span>clone-coding</span>
+                                        <p>하림</p>
+                                    </div>
+                                    <div class="btn">
+                                        <div class="btn">
+                                            <a href="https://mac6710.github.io/Harim02/" target="_blank">coding</a>
+                                            <a href="https://www.harim.com/main/#page5" target="_blank">origin</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cont">
+                                <div class="imgarea">
+                                    <div class="image">
+                                        <img src="image/cover/clone/changbi.png" alt="site3">
+                                    </div>
+                                </div>
+                                <div class="txtarea">
+                                    <div class="txt">
+                                        <span>clone-coding</span>
+                                        <p>창비</p>
+                                    </div>
+                                    <div class="btn">
+                                        <a href="https://mac6710.github.io/Changbi/" target="_blank">coding</a>
+                                        <a href="https://www.changbi.com/" target="_blank">origin</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cont">
+                                <div class="imgarea">
+                                    <div class="image">
+                                        <img src="image/cover/clone/Gongchae.jpg" alt="site3">
+                                    </div>
+                                </div>
+                                <div class="txtarea">
+                                    <div class="txt">
+                                        <span>team / clone-coding</span>
+                                        <p>내일채움공제</p>
+                                    </div>
+                                    <div class="btn">
+                                        <a href="https://mac6710.github.io/Naeil/" target="_blank">coding</a>
+                                        <a href="#" target="_blank">-</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-inner-pagination"></div>
+                </div>
+
+                <!-- contact -->
+                <div class="swiper-slide page" id="contact">
+                    <div class="contact">
+                        <h1 class="title">Contact</h1>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>id</th>
+                                        <th>title</th>
+                                        <th>date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <form action="#">
+                                        <tr class="form-group">
+                                            <td>001</td>
+                                            <td><label for="name">Name</label></td>
+                                            <td><input type="text" id="name" name="name"></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="form-group">
+                                            <td>002</td>
+                                            <td><label for="phone">phone</label></td>
+                                            <td><input type="tel" id="phone" name="phone"></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="form-group">
+                                            <td>003</td>
+                                            <td><label for="email">e-mail</label></td>
+                                            <td><input type="email" id="email" name="email"></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="form-group">
+                                            <td>004</td>
+                                            <td><label for="msg">Message</label></td>
+                                            <td><textarea name="msg" id="msg"></textarea></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td><input type="submit" value="send" class="send-mobile"></td>
+                                            <td><input type="submit" value="send" class="send"></td>
+                                        </tr>
+                                    </form>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="thanks">
+                            <hr class="dash">
+                            <p class="blink">Thank you for Play</p>
+                            <hr class="dash">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+
+        <div class="image-panel" id="image-panel">
+            <img id="full-image" src="" alt="Full Image">
+            <button class="close">Close</button>
+        </div>
+    </main>
+
+    <script>
+        var fullpageswiper = new Swiper(".fullpage", {
+            direction: "vertical",
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: true,
+            keyboard: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        var innerswiper = new Swiper(".inner", {
+            direction: "vertical",
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: false,
+            pagination: {
+                el: ".swiper-inner-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            on: {
+                breakpoints: {
+                    479: {
+                        mousewheel: true
+                    }
+                }
+            }
+        });
+
+        var mainswiper = new Swiper(".main-slider", {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 3,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            allowTouchMove: false,
+            loop: true,
+            loopSlides: 5,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            on: {
+                slideChange: function () {
+                    if (this.navigation && this.navigation.nextEl && this.navigation.prevEl) {
+                        this.navigation.nextEl.classList.remove('swiper-button-disabled');
+                        this.navigation.prevEl.classList.remove('swiper-button-disabled');
+                    }
+                },
+                init: function () {
+                    console.log('Swiper initialized');
+                },
+            },
+            breakpoints: {
+                1281: {
+                    loop: false
+                }
+            },
+        });
+
+        var thumbswiper = new Swiper(".thumbnail-slider", {
+            slidesPerView: 3,
+            slidesPerGroup: 1,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true, // 썸네일 슬라이드만 loop 활성화
+            slideToClickedSlide: true, // 썸네일 클릭 시 메인 슬라이드로 이동
+        });
+        // 썸네일 클릭 시 메인 슬라이드로 이동
+        thumbswiper.on("slideChange", function () {
+            mainswiper.slideTo(thumbswiper.realIndex);
+        });
+        // $(document).ready(function () {
+        //         window.mainSlider = $('.main-slider').bxSlider({
+        //         mode: 'horizontal',
+        //         speed: 500,
+        //         touchEnabled: false,
+        //         pager: false,
+        //         controls: false,
+        //         infiniteLoop: true,
+        //         minSlides: 1,
+        //         maxSlides: 1,
+        //     });
+        // });
+        // $(document).ready(function () {
+        //         thumbnailSlider = $(".thumbnail-slider").bxSlider({
+        //         mode: 'horizontal',
+        //         minSlides: 4,
+        //         maxSlides: 4,
+        //         slideWidth: 200,
+        //         slideMargin: 10,
+        //         pager: false,
+        //         controls: true,
+        //         speed: 500,
+        //         infiniteLoop: true,
+        //         touchEnabled: false,
+        //         onSlideAfter: function () {
+        //             ActiveSync();
+        //         }
+        //     });
+        // });
+    </script>
+</body>
+
+</html>
